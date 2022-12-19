@@ -8,9 +8,14 @@ UAS DASAR PEMORGRAMAN
 <br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
 
 ## Deskripsi Umum
-
+Matriks merupakan kumpulan-kumpulan bilangan yang disusun secara baris (vertikal) dan kolom (horizontal) bisa disebut juga array dua dimensi (multi-dimensional). perkalian matriks memiliki syarat yaitu jumlah kolom matriks pertama sama dengan jumlah baris matriks kedua.
 
 ## Source Code
+
+    //1. Input, bnyknya baris kolom banyak baris dan banyak data tukar baris jadi kolom , kolom jadi baris
+                      
+
+
 
     #include <iostream>
     using namespace std;
@@ -48,10 +53,58 @@ UAS DASAR PEMORGRAMAN
         cout << transpose[i][j] << "\t";
       }
       cout << endl;
+    } 
     }
-  }
 
+   
+   //2. Baris dan kolom tentukan banyaknya dan isikan data dan beda akhirnya, tampilkan bilangan habis dibagi 3,5,7
+
+
+            #include <iostream>
+            using namespace std;
+
+            const int MAX_ROWS = 100;
+            const int MAX_COLS = 100;
+
+            int main()
+            {
+              cout << "Nama  : Irsyad Nur Hidayatulloh^" << endl;
+              cout << "NIM   : 1227050061^ " << endl;
+              cout << "Kelas : IF-B^" << endl;
+              cout << "==========================================" << endl;
+              cout << "Program C++ Input Matriks 2 Dimensi^" << endl;
+              cout << "==========================================" << endl;
+              cout << endl;
+
+              int array[MAX_ROWS][MAX_COLS];
+              int rows, cols;
+
+              cout << "Masukkan jumlah baris array: ";
+              cin >> rows;
+              cout << "Masukkan jumlah kolom array: ";
+              cin >> cols;
+
+              cout << "Masukkan elemen-elemen array: " << endl;
+              for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                  cin >> array[i][j];
+                }
+              }
+
+              cout << "Bilangan yang habis dibagi 3, 5, dan 7: " << endl;
+              for (int i = 0; i < rows; i++) {
+                for (int j = 0; j < cols; j++) {
+                  if (array[i][j] % 3 == 0 && array[i][j] % 5 == 0 && array[i][j] % 7 == 0) {
+                    cout << array[i][j] << " ";
+                  }
+                }
+              }
+
+              return 0;
+            }
 
 ## Output
 
 ![2](https://user-images.githubusercontent.com/118744973/208370464-1457f264-eb36-4243-be03-fb5ca3954bac.JPG)
+
+![2412](https://user-images.githubusercontent.com/118744973/208374554-122df0b3-9164-4ea5-bdaf-08dd4312ac58.JPG)
