@@ -1,0 +1,58 @@
+# UASDasarPemograman_IrsyadNurHidayatulloh_1227050061
+UAS DASAR PEMORGRAMAN
+
+# Ujian Akhir Semester 
+<br>Mata Kuliah 	:Dasar Pemograman     
+<br> Nama		:Irsyad Nur Hidayatulloh
+<br>NIM		:	1227050061
+<br>Jurusan		:[Teknik Informatika](http://if.uinsgd.ac.id/) [UIN Sunan Gunung Djati Bandung](https://uinsgd.ac.id/) 
+
+## Deskripsi Umum
+1. Input, bnyknya baris kolom banyak baris dan banyak data
+Tukar baris jadi kolom kolom jadi baris
+
+## Source Code
+
+    #include <iostream>
+    using namespace std;
+
+    int main(){
+
+        cout << " Irsyad Nur Hidayatulloh" << endl;
+        cout << " 1227050061 " << endl;
+        cout << " IF-B " << endl
+             << endl;
+
+    int i, j, m, n, matriks[10][10], transpose[10][10];
+
+    cout << "Masukkan jumlah baris yang diinginkan: ";
+    cin >> m;
+    cout << "Masukkan jumlah kolom yang diinginkan: ";
+    cin >> n;
+
+    cout << "Masukkan nilai\n";
+    for (i = 0; i < m; i++){
+      for (j = 0; j < n; j++){
+        cin  >> matriks[i][j];
+      }
+    }
+
+    for (i = 0; i < m; i++){
+      for (j = 0; j < n; j++){
+        transpose[j][i] = matriks[i][j];
+      }
+    }
+
+    cout << "Hasil pertukaran Matriks: \n";
+    for (i = 0; i < n; i++){
+      for (j = 0; j < m; j++){
+        cout << transpose[i][j] << "\t";
+      }
+      cout << endl;
+    }
+  }
+
+
+## Output
+
+![2](https://user-images.githubusercontent.com/118744973/208370464-1457f264-eb36-4243-be03-fb5ca3954bac.JPG)
