@@ -11,7 +11,7 @@ UAS DASAR PEMORGRAMAN
 Array dua dimensi merupakan array yang terdiri dari m buah baris dan n buah kolom. Bentuknya dapat berupa matriks atau tabel.
 Matriks merupakan kumpulan-kumpulan bilangan yang disusun secara baris (vertikal) dan kolom (horizontal) bisa disebut juga array dua dimensi (multi-dimensional). perkalian matriks memiliki syarat yaitu jumlah kolom matriks pertama sama dengan jumlah baris matriks kedua.Kemudian disini juga harus menampilkan sebuah angka yang habis di bagi 3 , 5 dan 7.
 
-## Source Code
+## Source Code 1
 
     //1. Input, bnyknya baris kolom banyak baris dan banyak data tukar baris jadi kolom , kolom jadi baris
                       
@@ -57,6 +57,7 @@ Matriks merupakan kumpulan-kumpulan bilangan yang disusun secara baris (vertikal
     } 
     }
 
+## Source Code 2
    
    //2. Baris dan kolom tentukan banyaknya dan isikan data dan beda akhirnya, tampilkan bilangan habis dibagi 3,5,7
 
@@ -104,8 +105,10 @@ Matriks merupakan kumpulan-kumpulan bilangan yang disusun secara baris (vertikal
               return 0;
             }
 
-## Output
+## Output 1
 
 ![2](https://user-images.githubusercontent.com/118744973/208370464-1457f264-eb36-4243-be03-fb5ca3954bac.JPG)
+
+## Output 2
 
 ![2412](https://user-images.githubusercontent.com/118744973/208374554-122df0b3-9164-4ea5-bdaf-08dd4312ac58.JPG)
